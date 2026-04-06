@@ -1,26 +1,18 @@
-# telco-churn-analysis 
-# 📊 Customer Churn Analysis | Telco Dataset
 
-## 🎯 Project Overview
+# 📊 Telco Churn Analysis: De Datos a Estrategia de Retención
 
-Este proyecto analiza el comportamiento de cancelación de clientes en una empresa de telecomunicaciones, identificando factores clave como tipo de contrato y método de pago.
-
-El enfoque está en traducir datos en decisiones de negocio.
+## 🎯 Resumen del Proyecto
+Análisis exploratorio y estratégico de una base de datos de telecomunicaciones para identificar por qué los clientes abandonan el servicio. El proyecto no solo identifica patrones, sino que propone una **hoja de ruta accionable** para reducir la pérdida de ingresos.
 
 ---
 
-## 🧠 Problem Statement
+## 📈 Hallazgos Clave (Insights de Negocio)
 
-Las empresas de telecomunicaciones enfrentan altos niveles de cancelación de clientes, lo que impacta directamente sus ingresos.
-
----
-
-## 📈 Key Findings
-
-- Los clientes que cancelan pagan más en promedio
-- El método de pago más utilizado (electronic check) es también el que presenta mayor cancelación
-- Los contratos mensuales concentran la mayor parte del churn
-- Existe un segmento de alto riesgo con más del 50% de cancelación
+| Hallazgo | Impacto en el Negocio |
+| :--- | :--- |
+| **88% de Churn Total** | Concentrado exclusivamente en contratos **Mes a Mes**. |
+| **Paradoja del Pago** | El método más popular (*Electronic Check*) es un **10% más caro** y tiene un **57% de cancelación**. |
+| **Perfil de Alto Riesgo** | Clientes con contrato mensual + Electronic Check presentan una **fuga superior al 50%**. |
 
 ---
 
@@ -28,28 +20,25 @@ Las empresas de telecomunicaciones enfrentan altos niveles de cancelación de cl
 
 ![Dashboard](dashboard.PNG)
 
----
-
-## ⚙️ Tools Used
-
-- Python (Pandas, Matplotlib, seaborn)
-- Power BI
-- Jupyter Notebook
 
 ---
 
-## 🚀 Business Recommendations
+## 💡 El "Final Insight"
+> **"La cancelación no es un problema de precio; es un problema de comportamiento y compromiso."**
 
-- Incentivar pagos automáticos
-- Promover contratos de mayor duración
-- Enfocar estrategias en clientes de alto riesgo
+Lo que atrae al cliente (flexibilidad mensual) es precisamente lo que facilita su salida. El éxito de la retención depende de migrar al cliente hacia modelos de **alta vinculación**.
 
 ---
 
-## 💡 Final Insight
+## 🚀 Recomendaciones Estratégicas
+* **Optimización de Recaudo:** Incentivar la migración de *Electronic Check* a pagos automáticos para reducir costos y volatilidad.
+* **Conversión Contractual:** Implementar beneficios tangibles para transformar contratos mensuales en acuerdos de larga duración.
+* **Retención Proactiva:** Monitoreo intensivo del segmento de **Alto Riesgo** durante los primeros 90 días.
 
-La cancelación no es un problema de precio.
+---
 
-Es un problema de comportamiento.
-
-👉 Lo que atrae al cliente no siempre es lo que lo retiene.
+## ⚙️ Stack Tecnológico
+* **Análisis de Datos:** Python (Pandas, Seaborn, Matplotlib).
+* **Visualización:** Power BI / Dashboard Ejecutivo.
+* **Documentación:** Jupyter Notebook.
+---
